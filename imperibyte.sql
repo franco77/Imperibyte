@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 20-11-2018 a las 03:07:39
+-- Tiempo de generación: 20-11-2018 a las 13:11:52
 -- Versión del servidor: 10.1.36-MariaDB
 -- Versión de PHP: 7.2.10
 
@@ -154,11 +154,11 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `first_name`, `last_name`, `image`, `email`, `password`, `ip_address`, `profile`) VALUES
-(1, 'Alejandra', 'Franco', '612839cdda165060e1ca3d8a262932448.jpg', 'juanfranco561@gmail.com', 'e76babd84b222e0b6bb64c1022f5fae75bc7fc3d', '62.15.124.81', 'Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.'),
+(1, 'Juan', 'Franco', '612839cdda165060e1ca3d8a262932448.jpg', 'juanfranco561@gmail.com', 'e76babd84b222e0b6bb64c1022f5fae75bc7fc3d', '62.15.124.81', 'Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.'),
 (2, 'Angie', 'Salaz', NULL, 'juanfranco@gmail.com', 'e76babd84b222e0b6bb64c1022f5fae75bc7fc3', '45.36.205.232', ''),
-(3, 'Jose Fernando', 'Carrillo', NULL, 'carrillo_33@gmail.com', '123456', '127.0.0.1', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris venenatis at est et elementum. Vivamus maximus tincidunt nibh vitae semper. Donec quis purus neque. Donec eget neque in risus sagittis commodo. Etiam vestibulum dolor vitae risus ornare, nec feugiat sem malesuada. Donec mattis ac nibh dictum egestas. '),
+(3, 'Jose Fernando', 'Carrillo', NULL, 'carrillo_33@gmail.com', 'kjhn2477765hkfg258', '127.0.0.1', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris venenatis at est et elementum. Vivamus maximus tincidunt nibh vitae semper. Donec quis purus neque. Donec eget neque in risus sagittis commodo. Etiam vestibulum dolor vitae risus ornare, nec feugiat sem malesuada. Donec mattis ac nibh dictum egestas. '),
 (4, 'Donaldo Franco', 'Perez', NULL, 'donaldo568@gmail.com', '1234', '127.0.0.1', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris venenatis at est et elementum. Vivamus maximus tincidunt nibh vitae semper. Donec quis purus neque. Donec eget neque in risus sagittis commodo. Etiam vestibulum dolor vitae risus ornare, nec feugiat sem malesuada. Donec mattis ac nibh dictum egestas. '),
-(5, 'Luz Alejandra', 'Navarro', NULL, 'luz_77@gmail.com', 'e76babd84b222e0b6bb64c1022f5fae75bc7fc3d', '127.0.0.1', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris venenatis at est et elementum. Vivamus maximus tincidunt nibh vitae semper. Donec quis purus neque. Donec eget neque in risus sagittis commodo. Etiam vestibulum dolor vitae risus ornare, nec feugiat sem malesuada. Donec mattis ac nibh dictum egestas. ');
+(5, 'Steven', 'Munoz', NULL, 'steven@gmail.com', '20eabe5d64b0e216796e834f52d61fd0b70332fc', '127.0.0.1', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris venenatis at est et elementum. Vivamus maximus tincidunt nibh vitae semper. Donec quis purus neque. Donec eget neque in risus sagittis commodo. Etiam vestibulum dolor vitae risus ornare, nec feugiat sem malesuada. Donec mattis ac nibh dictum egestas. ');
 
 --
 -- Índices para tablas volcadas
