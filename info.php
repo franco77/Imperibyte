@@ -1,4 +1,4 @@
-<?php $titulo = 'Editar Perfil'; ?>
+<?php $titulo = 'Informacion Del Sistema'; ?>
 
 <?php include 'inc/common/head.php';?>
 <body id="page-top">
@@ -16,19 +16,14 @@
 
 
 
-         
-          <h1><?php echo $titulo; ?></h1>
-          <hr>
-          
-          
-
-          <?php include'inc/php/profile_edit.php'; ?>
         
+          
 
+          <?php include "inc/php/info.php"; ?>
 
         </div>
+        <!-- /.container-fluid -->
 
-        
 
       
 

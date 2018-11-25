@@ -1,4 +1,4 @@
-<?php $titulo = 'Editar Perfil'; ?>
+<?php $titulo = 'Equipo De Trabajo'; ?>
 
 <?php include 'inc/common/head.php';?>
 <body id="page-top">
@@ -19,10 +19,11 @@
          
           <h1><?php echo $titulo; ?></h1>
           <hr>
+          <p><a href="team_add.php" class="btn btn-primary">Nuevo Miembro</a></p>
           
           
 
-          <?php include'inc/php/profile_edit.php'; ?>
+          <?php include'inc/php/team_list.php'; ?>
         
 
 

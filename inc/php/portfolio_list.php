@@ -66,7 +66,7 @@
                       <td>  
                       <a href="#" data-toggle="modal" data-target="#show_portfolio-<?php echo $p['id']; ?>"><i class="fas fa-eye action"></i></a>
                       <a href="portfolio_edit.php?id=<?php echo $p['id']; ?>"><i class="fas fa-edit action"></i></a>
-                      <a href="#"><i class="fas fa-trash-alt action"></i></a>
+                      <a href="inc/php/php_delete_portfolio.php?id=<?php echo $p['id']; ?>" class="delete"><i class="fas fa-trash-alt action"></i></a>
                       </td>
                     </tr>
 

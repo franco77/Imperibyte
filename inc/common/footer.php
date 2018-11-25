@@ -91,6 +91,46 @@
     });
    </script>
 
+
+
+
+<link href="vendor/sweetalert/sweetalert.css" rel="stylesheet">
+<script src="vendor/sweetalert/sweetalert.min.js"></script>
+<script type="text/javascript">
+    $('.delete').on("click", function(e) {
+  e.preventDefault();
+  var url = $(this).attr('href');
+  swal({
+      title: "Está seguro?",
+      text: "No podrá recuperar los datos una vez sea eliminado!",
+      type: "warning",
+      showCancelButton: true,
+      confirmButtonColor: '#DD6B55',
+      confirmButtonText: 'Si, Eliminarlo!',
+      cancelButtonText: "No, Cancelar!",
+      confirmButtonClass: "btn-danger",
+      closeOnConfirm: false,
+      closeOnCancel: false
+    },
+    function(isConfirm) {
+      if (isConfirm) {
+        swal("Eliminado!", "Su registro ha sido eliminado!", "success");
+        window.location.replace(url);
+      } else {
+        swal("Cancelado", "Los datos están a salvo! :)", "error");
+      }
+    });
+});
+</script>
+
+
+
+
+
+
+
+
+
     <link rel="stylesheet" href="vendor/tags-autocomplete/dist/jquery.tagsinput-revisited.min.css">
     <script src="vendor/tags-autocomplete/dist/jquery.tagsinput-revisited.min.js"></script>
    <script>

@@ -16,13 +16,14 @@
 
 
 
-          <!-- Page Content -->
-          <h1>Blank Page</h1>
-          <hr>
-          <p>This is a great starting point for new custom pages.</p>
+        
+          
+
+          <?php include "inc/php/dashboard.php"; ?>
 
         </div>
         <!-- /.container-fluid -->
+
 
       
 

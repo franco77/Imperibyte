@@ -5,6 +5,7 @@ $tb_users = 'users';
 $tb_posts = 'posts';
 $tb_categories = 'categories';
 $tb_portfolio = 'portfolio';
+$tb_teams = 'teams';
 
 
 	

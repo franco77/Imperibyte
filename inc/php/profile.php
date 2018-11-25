@@ -20,8 +20,7 @@ if ($rows_users > 0) {
 
           <div class="card mb-3">
             <div class="card-header">
-              <i class="fas fa-table"></i>
-              Data Table Example</div>
+              <i class="fas fa-table"></i> Perfil De Usuario</div>
             <div class="card-body">
 
 
@@ -31,7 +30,7 @@ if ($rows_users > 0) {
                 <div class="row">
                     <div class="col-md-4">
                         <div class="profile-img">
-                            <img src="uploads/users/<?php echo $profile['image']; ?>" class="rounded-circle img-fluid" alt=""/>
+                            <img src="uploads/users/<?php echo $profile['image']; ?>" class="img-thumbnail img-fluid" alt=""/>
                             
                         </div>
                     </div>
@@ -119,9 +118,7 @@ if ($rows_users > 0) {
             </div>
           </div>
 
-          <p class="small text-center text-muted my-5">
-            <em>More table examples coming soon...</em>
-          </p>
+          
 
         </div>
 

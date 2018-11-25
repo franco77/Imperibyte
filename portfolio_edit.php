@@ -10,7 +10,7 @@
          <li class="breadcrumb-item">
             <a href="index.php">Inicio</a>
          </li>
-         <li class="breadcrumb-item active">Inicio</li>
+         <li class="breadcrumb-item active"><?php echo $titulo; ?></li>
       </ol>
 
 

@@ -56,7 +56,7 @@ if ($rows_posts > 0) {
   <div class="modal-dialog modal-lg" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        <h5 class="modal-title" id="exampleModalLabel">Ver Info Dela Publicacion</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
@@ -85,7 +85,7 @@ if ($rows_posts > 0) {
       </tr>
       <tr>
       <th>Imagen</th>
-      <td><img src="uploads/<?php echo $rvp['image']; ?>" class="img-fluid img-thumbnail" width="250"></td>
+      <td><img src="uploads/post/<?php echo $rvp['image']; ?>" class="img-fluid img-thumbnail" width="250"></td>
       </tr>
       <tr>
       <th>Slug</th>
@@ -130,8 +130,7 @@ if ($rows_posts > 0) {
 
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
       </div>
     </div>
   </div>

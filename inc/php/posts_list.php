@@ -46,7 +46,7 @@
                     <tr>
                       <td><?php echo $p['title']; ?></td>
                       <td><?php echo substr($p['excerpt'],0,150); ?></td>
-                      <td><img src="uploads/<?php echo $p['image']; ?>" class="img-fluid img-thumbnail" width="70"></td>
+                      <td><img src="uploads/post/<?php echo $p['image']; ?>" class="img-fluid img-thumbnail" width="70"></td>
                       <?php if ($p['status'] == 1) {
                         echo '<td><button type="button" class="btn btn-success">Activo</button></td>';
                       } else {
@@ -64,7 +64,7 @@
                       <td>  
                       <a href="#" data-toggle="modal" data-target="#show_post-<?php echo $p['id']; ?>"><i class="fas fa-eye action"></i></a>
                       <a href="post_edit.php?id=<?php echo $p['id']; ?>"><i class="fas fa-edit action"></i></a>
-                      <a href="#"><i class="fas fa-trash-alt action"></i></a>
+                      <a href="inc/php/php_delete_post.php?id=<?php echo $p['id']; ?>" class="delete"><i class="fas fa-trash-alt action"></i></a>
                       </td>
                     </tr>
 

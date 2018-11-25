@@ -151,7 +151,7 @@ if ($rows_posts > 0) {
         </div>
 
       <div class="avatar-preview">
-            <div id="imagePreview" style="background-image: url(uploads/<?php echo $rp['image']; ?>);">
+            <div id="imagePreview" style="background-image: url(uploads/post/<?php echo $rp['image']; ?>);">
             </div>
         </div>
 </div>

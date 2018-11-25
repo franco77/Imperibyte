@@ -48,7 +48,7 @@ if(isset($_FILES['image'])){
       }
       
       if(empty($errors)==true){
-         move_uploaded_file($file_tmp,"../../uploads/".$random.$file_name);
+         move_uploaded_file($file_tmp,"../../uploads/post/".$random.$file_name);
          echo "Success";
       }else{
          print_r($errors);
@@ -61,7 +61,7 @@ if(isset($_FILES['image'])){
 $image_post = $random.$file_name;
 
 
-			$sql = "INSERT INTO posts (id_autor, category_id, title, excerpt, body, image, slug, status, featured, meta_description, meta_keywords, created_at) VALUES('$id_autor','$category_id', '$title', '$excerpt', '$body', '$image_post', '$slug', '$status', '$featured', '$meta_description', '$meta_keywords', now())";
+			$sql = "INSERT INTO tb_posts (id_autor, category_id, title, excerpt, body, image, slug, status, featured, meta_description, meta_keywords, created_at) VALUES('$id_autor','$category_id', '$title', '$excerpt', '$body', '$image_post', '$slug', '$status', '$featured', '$meta_description', '$meta_keywords', now())";
 			$mysqli->query($sql);
 
             
@@ -85,7 +85,7 @@ $post_id=$mysqli->insert_id;
 
            
            
-           $insert_tag = "INSERT INTO tags (post_id, tag, tag_slug, created_at) VALUES('$post_id', '$tag', '$tag_slug', now())";
+           $insert_tag = "INSERT INTO tb_tags (post_id, tag, tag_slug, created_at) VALUES('$post_id', '$tag', '$tag_slug', now())";
            $mysqli->query($insert_tag);
 
      } 

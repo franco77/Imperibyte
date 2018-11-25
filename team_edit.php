@@ -1,4 +1,4 @@
-<?php $titulo = 'Editar Perfil'; ?>
+<?php $titulo = 'Editar Miembro'; ?>
 
 <?php include 'inc/common/head.php';?>
 <body id="page-top">
@@ -22,7 +22,7 @@
           
           
 
-          <?php include'inc/php/profile_edit.php'; ?>
+          <?php include'inc/php/team_edit.php'; ?>
         
 
 

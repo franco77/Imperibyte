@@ -57,7 +57,7 @@ if(isset($_POST['btn_edit_image'])){
       }
       
       if(empty($errors)==true){
-        move_uploaded_file($file_tmp,"../../uploads/".$random.$file_name);
+        move_uploaded_file($file_tmp,"../../uploads/post/".$random.$file_name);
          echo "Success";
       }else{
          print_r($errors);
